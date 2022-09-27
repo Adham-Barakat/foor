@@ -1,0 +1,92 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 100%;
+}
+svg{
+    margin-top: 10em;
+}
+.up1{
+    display: flex;
+     justify-content: space-between;
+}
+
+
+.pink{
+    background-color: #FFDCE2;
+    width: 100%;
+    height:55em;
+    opacity: 0.5;
+    margin-top: -4px;
+}
+.welcome{
+
+    text-align: center;
+    opacity: 0;
+    transform: translateY(40px);
+    transition : all 0.4s ease;
+    
+}
+
+.show-welcome{
+    opacity: 1;
+    transform: translateY(0px);
+}
+.up1 h1{
+    margin: 10px;
+    text-align: center;
+    font-family: sans-serif;
+    color: red;
+}
+.up1 p{
+    margin: 10px;
+    color: gray;
+}
+.up1 button{
+    margin-left: 10px;
+    cursor: pointer;
+}
+.button1{
+    width: 20%;
+    height: 7%;
+    background-color: white;
+    border: 2px solid blue;
+    color: blue;
+    border-radius: 4px;
+    transition: all 0.5s ease;
+}
+.button2{
+    margin-top: 5px;
+    width: 20%;
+    height: 7%;
+    background-color: blue;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    transition: all 0.5s ease;
+}
+.button1:hover{
+    background-color: blue;
+    color: white;
+    letter-spacing: 1px;
+}
+.button2:hover{
+    background-color: white;
+    border: 2px solid blue;
+    color: blue;
+    letter-spacing: 1px;
+}
+img{
+    margin: 20px;
+    width:35%;
+    height: 40%;
+    border-radius: 40px;
+    transition: all 0.5s ease;
+}
+img:hover{
+    transform: rotate(10deg) ;
+
+}
